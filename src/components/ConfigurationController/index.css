@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+}
+
+.configuration-container {
+  background-color: #475569;
+  font-family: 'Roboto';
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.configuration-context {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .configuration-context {
+    width: 80%;
+  }
+}
+
+.layout-heading {
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-heading {
+    font-size: 27px;
+  }
+}
+
+.controllers-container {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+
+.each-check-box {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label-text {
+  font-size: 12px;
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .label-text {
+    font-size: 17px;
+  }
+}
+
+.check-box {
+  height: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .check-box {
+    height: 15px;
+  }
+}

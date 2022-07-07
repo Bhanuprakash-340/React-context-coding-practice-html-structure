@@ -1,0 +1,14 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .layout-container {
+    width: 80%;
+  }
+}
